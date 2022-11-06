@@ -51,15 +51,18 @@ Taper dans votre terminal la commande:
 Pour exécuter le script placez vous dans le dossier avec le terminal ou se trouve le script avec l'environnement virtuel activé.   
 taper:      
 **_projet_script_ETL_V1.1.0.py_**   
+
 Le programme se lance et va lister les données à extraire et ensuite les ecriras sur des fichiers csv.      
 Vous pouvez mettre pause en appuyant sur ctrl+s et contrôler les informations en cours d'extraction qui défile dans votre terminal.   
 Le programme est paramétré pour extraire les 50 catégories du site, vous pouvez changer se paramètre et saisir seulement
 les catégories souhaitées, il y a 50 catégories la liste est régler sur [3:53]   
 Vous pouvez la modifier en changeant les paramétres sur les 2 fonctions suivantes:   
 **_def fonction_main_extract_all_categories(url):_**    
-Ligne 24 et ligne 39   
+Ligne 24 et ligne 39     
+
 **_def write_file_import_csv(data):_**   
-Ligne 388   
+Ligne 388      
+
 exemple: si vous souhaitez seulement la première catégorie mettre [3:4]    
 exemple: si vous souhaitez seulement la deuxième et la troisième catégorie mettre [4:6]   
 
